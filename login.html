@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: white;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        width: 50vh;
+        border: 2px solid red;
+        border-radius: 20px;
+        box-shadow: inset 2px 2px 20px black;
+        gap: 20px;
+      }
+      .input {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      input {
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 16px;
+        position: relative;
+        color: white;
+        font-weight: bold;
+        background: transparent;
+      }
+
+      label {
+        position: absolute;
+        top: 25%;
+        left: 5%;
+        font-size: 16px;
+        font-weight: bold;
+        transition: all 1s ease-in-out;
+      }
+
+      .input:hover {
+        label {
+          top: -25%;
+          left: 10%;
+          z-index: 999;
+          background-color: black;
+
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="input">
+        <input id="name" name="name" type="text" />
+        <label for="name">Full Name</label>
+      </div>
+      <div class="input">
+        <input type="password" />
+        <label for="">Password</label>
+      </div>
+    </div>
+  </body>
+</html>

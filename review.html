@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review Page</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- FontAwesome for stars and arrows -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar flex between wrapper">
+        <a href="#" class="logo">FOODIE</a>
+
+        <!-- desktop view  -->
+        <ul class="navlist flex gap-3">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="menu.html">Menu</a>
+          </li>
+          <li>
+            <a href="about.html">About Us</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact Us</a>
+          </li>
+          <li>
+            <a href="review.html">Reviews</a>
+          </li>
+        </ul>
+        <div class="desktop-action flex gap-2">
+          <a href="#" class="cart-icon"
+            ><i class="fa-solid fa-bag-shopping"></i>
+            <span class="cart-value">0</span>
+          </a>
+          <a href="#" class="btn">
+            Sign in &nbsp; <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          </a>
+          <a href="" class="hamburger"> <i class="fa-solid fa-bars"></i> </a>
+        </div>
+        <!-- mobile view  -->
+        <ul class="mobile-menu">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="menu.html">Menu</a>
+          </li>
+          <li>
+            <a href="about.html">About Us</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact Us</a>
+          </li>
+          <li>
+            <a href="review.html">Reviews</a>
+          </li>
+          <li>
+            <a href="#" class="btn">
+              Sign in &nbsp;<i class="fa-solid fa-arrow-right-from-bracket"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <div class="review-section flex wrapper pt-3">
+        <div class="review-container flex mt-one-half">
+          <!-- Review Form -->
+          <div class="card flex wrapper">
+            <h4>Add Your Review</h4>
+            <form class="reviewForm">
+              <div class="mt-one-half">
+                <label for="name">Your Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  class="form-control"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div class="mt-one-half">
+                <label for="rating">Rating (1-5)</label>
+                <input
+                  type="number"
+                  id="rating"
+                  class="form-control"
+                  min="1"
+                  max="5"
+                  required
+                />
+              </div>
+              <div class="mt-one-half">
+                <label for="comment">Your Review</label>
+                <textarea
+                  id="comment"
+                  class="form-control"
+                  rows="3"
+                  placeholder="Write your review..."
+                  required
+                ></textarea>
+              </div>
+              <div class="review-btn">
+                <button type="submit" class="btn mt-one-half">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Swiper Slider -->
+          <div class="swiper mySwiper">
+            <div class="text-center mt-one-half">
+              <h5>Our reviews</h5>
+              <h3>What they say?</h3>
+            </div>
+
+            <div class="swiper-wrapper" id="swiperWrapper">
+              <!-- Optional initial reviews -->
+              <!-- <div class="swiper-slide">
+                <div class="review-card">
+                  <h4>Pratik Matre</h4>
+                  <div class="rating">★★★★☆</div>
+                  <p>
+                    Great product! Really satisfied with the quality and
+                    delivery.
+                  </p>
+                </div>
+              </div> -->
+            </div>
+
+            <!-- Navigation Arrows -->
+            <div class="flex between arr">
+              <a href="#" class="arrow" id="prevBtn"
+                ><i class="fa-solid fa-arrow-left"></i
+              ></a>
+              <a href="#" class="arrow" id="nextBtn"
+                ><i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER Part -->
+    <footer class="footer-container">
+      <p class="footer-p">&copy; 2025 FOODIE. All Rights Reserved.</p>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="main.js"></script>
+    <script src="review.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,66 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "name": "Double Beef Burger",
+      "price": "$200",
+      "image": "./images/burger.png"
+    },
+    {
+      "id": "2",
+      "name": "Veggie Pizza",
+      "price": "$10.99",
+      "image": "./images/pizza.png"
+    },
+    {
+      "id": "3",
+      "name": "Fried Chicken",
+      "price": "$13.45",
+      "image": "./images/fried-chicken.png"
+    },
+    {
+      "id": "4",
+      "name": "Chicken Roll",
+      "price": "$7.50",
+      "image": "./images/chicken-roll.png"
+    },
+    {
+      "id": "5",
+      "name": "Sub Sandwich",
+      "price": "$6.99",
+      "image": "./images/sandwich.png"
+    },
+    {
+      "id": "6",
+      "name": "Chicken Lasagna",
+      "price": "$16.45",
+      "image": "./images/lasagna.png"
+    },
+    {
+      "id": "7",
+      "name": " Italian Spaghetti",
+      "price": "$27.6500",
+      "image": "./images/spaghetti.png"
+    },
+    {
+      "id": "1",
+      "name": " Spring Roll",
+      "price": "$9.31",
+      "image": "./images/spring-roll.png"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "name": "Pratik Matre",
+      "rating": "5",
+      "comment": "Awesome service!"
+    },
+    {
+      "id": "22d8",
+      "name": "Akshay Matre",
+      "rating": 5,
+      "comment": "Great product! Really satisfied with the quality and delivery."
+    }
+  ]
+}

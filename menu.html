@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodie Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <!-- swipper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER Part -->
+    <header>
+      <nav class="navbar flex between wrapper">
+        <a href="#" class="logo">FOODIE</a>
+
+        <!-- desktop view  -->
+        <ul class="navlist flex gap-3">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="menu.html">Menu</a>
+          </li>
+          <li>
+            <a href="about.html">About Us</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact Us</a>
+          </li>
+          <li>
+            <a href="review.html">Reviews</a>
+          </li>
+        </ul>
+        <div class="desktop-action flex gap-2">
+          <a href="#" class="cart-icon"
+            ><i class="fa-solid fa-bag-shopping"></i>
+            <span class="cart-value">0</span>
+          </a>
+          <a href="#" class="btn">
+            Sign in &nbsp; <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          </a>
+          <a href="" class="hamburger"> <i class="fa-solid fa-bars"></i> </a>
+        </div>
+        <!-- mobile view  -->
+        <ul class="mobile-menu">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="menu.html">Menu</a>
+          </li>
+          <li>
+            <a href="about.html">About Us</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact Us</a>
+          </li>
+          <li>
+            <a href="review.html">Reviews</a>
+          </li>
+          <li>
+            <a href="#" class="btn">
+              Sign in &nbsp;<i class="fa-solid fa-arrow-right-from-bracket"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="wrapper pt-3">
+        <div class="text-center">
+          <h5>Our Menu</h5>
+          <h2>The Most Popular</h2>
+        </div>
+        <div class="card-list text-center flex mt-4 gap-2">
+          <!-- <div class="order-card">
+              <div class="card-img">
+                <img src="./images/burger.png" alt="" />
+              </div>
+              <h4>Double Beef Burger</h4>
+              <h4 class="price">$200</h4>
+              <a href="" class="btn">Add to card</a>
+            </div> -->
+        </div>
+
+        <!-- card tab -->
+        <div class="cart-tab">
+          <h3>Your Cart</h3>
+
+          <div class="cart-list">
+            <!-- <div class="item">
+                <div class="item-image">
+                  <img src="./images/burger.png" alt="" />
+                </div>
+                <div>
+                  <h4>Double Beef Burger</h4>
+                  <h4 class="item-total">$200</h4>
+                </div>
+                <div class="flex">
+                  <a href="" class="quantity-btn">
+                    <i class="fa-solid fa-minus"></i>
+                  </a>
+                  <h4 class="quantity-value">1</h4>
+                  <a href="" class="quantity-btn">
+                    <i class="fa-solid fa-plus"></i>
+                  </a>
+                </div>
+              </div> -->
+          </div>
+
+          <div class="total-container">
+            <h4>Total:</h4>
+            <h4 class="cart-total">$0.00</h4>
+          </div>
+          <div class="btn-container flex gap-2">
+            <a href="#" class="btn close-btn">Close</a>
+            <a href="" class="btn">Check Out</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER Part -->
+    <footer class="footer-container">
+      <p class="footer-p">&copy; 2025 FOODIE. All Rights Reserved.</p>
+    </footer>
+    <script defer src="./main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  </body>
+</html>
