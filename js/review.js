@@ -68,7 +68,7 @@ form.addEventListener("submit", (e) => {
           </div>
         </div>
       `;
-      swiper.prependSlide(slide);
+      swiper.appendSlide(slide);
       form.reset();
     })
     .catch((err) => console.error("Error saving data:", err));

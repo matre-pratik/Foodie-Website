@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Login</title>
+
+    <!-- Style.css  -->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- FontAwesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar flex between wrapper">
+        <a href="#" class="logo">FOODIE</a>
+
+        <!-- desktop view  -->
+        <ul class="navlist flex gap-3">
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="../menu.html">Menu</a>
+          </li>
+          <!-- <li>
+            <a href="about.html">About Us</a>
+          </li> -->
+          <li>
+            <a href="../contact.html">Contact Us</a>
+          </li>
+          <li>
+            <a href="../review.html">Reviews</a>
+          </li>
+        </ul>
+        <div class="desktop-action flex gap-2">
+          <a href="#" class="cart-icon"
+            ><i class="fa-solid fa-bag-shopping"></i>
+            <span class="cart-value">0</span>
+          </a>
+          <a href="../admin/adminLogin.html" class="btn">
+            Sign in &nbsp; <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          </a>
+          <a href="#" class="hamburger"> <i class="fa-solid fa-bars"></i> </a>
+        </div>
+        <!-- mobile view  -->
+        <ul class="mobile-menu">
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="../menu.html">Menu</a>
+          </li>
+          <!-- <li>
+            <a href="about.html">About Us</a>
+          </li> -->
+          <li>
+            <a href="../contact.html">Contact Us</a>
+          </li>
+          <li>
+            <a href="../review.html">Reviews</a>
+          </li>
+          <li>
+            <a href="../admin/adminLogin.html" class="btn">
+              Sign in &nbsp;<i class="fa-solid fa-arrow-right-from-bracket"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <div class="admin-section">
+        <div class="admin-container">
+          <div class="content">
+            <h4>Admin Login</h4>
+            <div class="adminForm">
+              <div class="mt-one-half">
+                <input
+                  type="email"
+                  id="adminEmail"
+                  class="form-control"
+                  placeholder="Admin Email"
+                  required
+                />
+              </div>
+              <div class="mt-one-half">
+                <input
+                  type="password"
+                  id="adminPassword"
+                  class="form-control"
+                  placeholder="Password"
+                  required
+                />
+              </div>
+              <div class="loginBtn">
+                <button onclick="adminLogin()" class="btn mt-one-half">
+                  Login
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER Part -->
+    <footer
+      style="position: fixed; bottom: 0; width: 100%"
+      class="footer-container"
+    >
+      <p class="footer-p">&copy; 2025 FOODIE. All Rights Reserved.</p>
+    </footer>
+
+    <script src="./admin.js"></script>
+  </body>
+</html>

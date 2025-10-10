@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Login</title>
+
+    <!-- Style.css  -->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- FontAwesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar flex between wrapper">
+        <a href="#" class="logo">Admin Dashboard</a>
+
+        <!-- desktop view  -->
+        <ul class="navlist flex gap-3">
+          <li>
+            <a href="./product.html">Product</a>
+          </li>
+          <li>
+            <a href="./forms.html">Contact Form</a>
+          </li>
+        </ul>
+        <div class="desktop-action flex gap-2">
+          <a href="#" class="cart-icon"
+            ><i class="fa-solid fa-bag-shopping"></i>
+            <span class="cart-value">0</span>
+          </a>
+          <a href="../admin/adminLogin.html" class="btn">
+            Logout &nbsp; <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          </a>
+          <a href="#" class="hamburger"> <i class="fa-solid fa-bars"></i> </a>
+        </div>
+        <!-- mobile view  -->
+        <ul class="mobile-menu">
+          <li>
+            <a href="./product.html">Product</a>
+          </li>
+          <li>
+            <a href="./forms.html">Contact Forms</a>
+          </li>
+          
+          <li>
+            <a href="../admin/adminLogin.html" class="btn">
+              Logout &nbsp;<i class="fa-solid fa-arrow-right-from-bracket"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="admin-section">
+      <div class="text-center">
+        <p class="lead">Manage your submissions and content here.</p>
+        <a href="./forms.html" class="btn">View Submitted Forms</a>
+        <a href="./product.html" class="btn">Add Menu</a>
+      </div>
+    </section>
+
+
+    <!-- FOOTER Part -->
+    <footer
+      style="position: fixed; bottom: 0; width: 100%"
+      class="footer-container"
+    >
+      <p class="footer-p">&copy; 2025 FOODIE. All Rights Reserved.</p>
+    </footer>
+
+  <script src="./admin.js"></script>
+  </body>
+</html>
