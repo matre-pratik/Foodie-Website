@@ -12,14 +12,6 @@ function adminLogin() {
     alert("Invalid Admin Credentials!");
   }
 }
-
-  //  Dashboard
-      window.onload = () => {
-        if (localStorage.getItem("isAdminLoggedIn") !== "true") {
-          alert("You must login first!");
-          window.location.href = "admin.html";
-        }
-      };
       
       const logout = document.querySelector("li .btn")
 
