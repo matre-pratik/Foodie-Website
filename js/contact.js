@@ -1,4 +1,4 @@
-  let editingFormId = null;
+let editingFormId = null;
 function fetchForms() {
     fetch("http://localhost:3000/contacts")
     .then(res => res.json())
