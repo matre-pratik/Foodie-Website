@@ -1,83 +1,62 @@
-# 🍔 Foodie Website
+# Foodie Website
 
-A responsive food delivery website made with **HTML, CSS, and JavaScript**, featuring an admin login and user-friendly design.
+## Project Overview
+Foodie Website is a responsive frontend project that simulates a food delivery service interface.  
+It demonstrates layout design, interactive elements, navigation, and a basic admin flow using HTML, CSS, and JavaScript.
 
----
-
-## 🌟 Features
-
-- Responsive layout
-- Food service showcase
-- Contact form
-- Admin login/logout
-- Newsletter subscription section
-
----
-
-## 🧠 Technologies Used
-
+## Tech Stack
 - HTML5
 - CSS3
 - JavaScript
-- Font Awesome
-- Swiper.js
+- JSON Server (for mock backend)
+- External libraries like Font Awesome and Swiper.js
 
----
+## Features
+- Responsive layout for different screen sizes
+- Food menu pages with categories
+- Contact page with form
+- Admin login page
+- Basic mock dashboard
+- Newsletter subscription section
 
-## 🔐 Admin Login Credentials
+## Live Demo
+https://github.com/matre-pratik/Foodie-Website
 
-```
-Email: admin@gmail.com
-Password: admin123
-```
 
----
-
-## 🚀 Getting Started
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/yourusername/foodie-website.git
-   ```
-2. Navigate to the project folder:
-   ```bash
-   cd foodie-website
-   ```
-3. Run JSON Server: json-server --watch db.json --port 3000    
-
+## How to Run Locally
+1. Clone the repository
+2. Install JSON Server globally (if not installed):
+    npm install -g json-server
+3. Start JSON Server:
+   json-server --watch db.json --port 3000
 4. Open `index.html` in your browser.
 
----
-
-## 📂 Folder Structure
-
-```
-Foodie/
-│
+## Project Structure
+Foodie-Website/
 ├── index.html
 ├── contact.html
-├── /css/style.css
-├── /images/
-├── /js/
-│   ├── main.js
-│   ├── contact.js
-│   └── adminLogin.js
-└── /admin/
-    ├── adminLogin.html
-    └── dashboard.html
-```
+├── menu.html
+├── review.html
+├── css/
+├── images/
+├── js/
+├── admin/
+│ ├── adminLogin.html
+│ └── dashboard.html
+└── db.json
 
----
+## Concepts Demonstrated
+- Responsive frontend design
+- Navigation and layout structuring
+- JavaScript DOM manipulation
+- Mock backend setup with JSON Server
+- Integration of external libraries
 
-## 💡 Future Improvements
+## Suggestions for Future Improvements
+- Replace JSON Server with a real backend API
+- Add cart and checkout functionality
+- Add user authentication and database
 
-- Add real-time database integration
-- Replace static login with dynamic authentication
-- Add product cart functionality
-
----
-
-## 👨‍💻 Author
-
-**Pratik Matre**  
-📧 Email: matrepratik8728@gmail.com
+## Author
+Pratik Matre  
+Email: matrepratik8728@gmail.com
